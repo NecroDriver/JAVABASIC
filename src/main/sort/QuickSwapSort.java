@@ -15,7 +15,9 @@ public class QuickSwapSort {
         }
         group(arr,0,arr.length-1);
     }
-    public static void group(int[] arr,int left,int right){
+    public static void group(int[] arr,int start,int end){
+        int left = start;
+        int right = end;
         //递归开关
         if(right<=left){
             return;
@@ -40,9 +42,9 @@ public class QuickSwapSort {
             }
         }
         //中间值
-        arr[left] = key;
-        group(arr,0,left-1);
-        group(arr,left+1,arr.length-1);
+        arr[left] = key;//这一步是必须的，因为数组是全局操作，不给赋值，该数组中间值会有问题。
+        group(arr,start,left-1);
+        group(arr,left+1,end);
     }
     public static void main(String[] args) {
         int[] array = {49, 38, 65, 97, 26, 13, 27, 49, 55};
