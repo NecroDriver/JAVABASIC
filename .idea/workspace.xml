@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="865ab5e8-c67d-4356-9666-04a2044bd203" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sort/QuickSwapSort2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/sort/comparator/Comparator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -612,7 +610,7 @@
       <workItem from="1500441692905" duration="225000" />
       <workItem from="1500442030368" duration="10956000" />
       <workItem from="1500530981104" duration="629000" />
-      <workItem from="1500858670827" duration="7312000" />
+      <workItem from="1500858670827" duration="7362000" />
     </task>
     <task id="LOCAL-00001" summary="快排提交">
       <created>1500448028926</created>
@@ -628,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500456241871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="快排和sort提交">
+      <created>1500880205841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500880205841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24941000" />
+    <option name="totallyTimeSpent" value="24991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -681,7 +686,8 @@
     <MESSAGE value="排序算法提交" />
     <MESSAGE value="快排提交" />
     <MESSAGE value="归并排序和基数排序提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="归并排序和基数排序提交" />
+    <MESSAGE value="快排和sort提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="快排和sort提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
