@@ -6,4 +6,13 @@ package main.testModel;
  * @version 1.0.0
  */
 public class Test {
+
+    public void say(){
+        System.out.println("this is method-say");
+    }
+
+    public void may() {
+        Father father = new Father();
+        father.helpSay(this);
+    }
 }
